@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5F84B921B1BC0C0007A935 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F84B821B1BC0C0007A935 /* BucketItemCell.swift */; };
+		BF5F84BC21B1BCE70007A935 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F84BB21B1BCE70007A935 /* BucketItem.swift */; };
+		BF5F84BE21B1BDB70007A935 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F84BD21B1BDB70007A935 /* DataViewController.swift */; };
+		BF5F84C021B1BE370007A935 /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = BF5F84BF21B1BE370007A935 /* bucket18.csv */; };
 		BFEFF9AA21AC7D5600CDFDC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEFF9A921AC7D5600CDFDC1 /* AppDelegate.swift */; };
-		BFEFF9AC21AC7D5600CDFDC1 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEFF9AB21AC7D5600CDFDC1 /* DataViewController.swift */; };
 		BFEFF9AF21AC7D5600CDFDC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEFF9AD21AC7D5600CDFDC1 /* Main.storyboard */; };
 		BFEFF9B121AC7D5C00CDFDC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEFF9B021AC7D5C00CDFDC1 /* Assets.xcassets */; };
 		BFEFF9B421AC7D5C00CDFDC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEFF9B221AC7D5C00CDFDC1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF5F84B821B1BC0C0007A935 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		BF5F84BB21B1BCE70007A935 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		BF5F84BD21B1BDB70007A935 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		BF5F84BF21B1BE370007A935 /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket18.csv; path = ../../../../Downloads/bucket18.csv; sourceTree = "<group>"; };
 		BFEFF9A621AC7D5600CDFDC1 /* DataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEFF9A921AC7D5600CDFDC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFEFF9AB21AC7D5600CDFDC1 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		BFEFF9AE21AC7D5600CDFDC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFEFF9B021AC7D5C00CDFDC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFEFF9B321AC7D5C00CDFDC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF5F84BA21B1BC870007A935 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF5F84BB21B1BCE70007A935 /* BucketItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BFEFF99D21AC7D5500CDFDC1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +68,7 @@
 		BFEFF9A821AC7D5600CDFDC1 /* DataProject */ = {
 			isa = PBXGroup;
 			children = (
+				BF5F84BA21B1BC870007A935 /* Model */,
 				BFEFF9BB21AC7DB200CDFDC1 /* Resources */,
 				BFEFF9BD21AC7DDB00CDFDC1 /* Controller */,
 				BFEFF9BC21AC7DD300CDFDC1 /* View */,
@@ -64,6 +79,7 @@
 		BFEFF9BB21AC7DB200CDFDC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BF5F84BF21B1BE370007A935 /* bucket18.csv */,
 				BFEFF9A921AC7D5600CDFDC1 /* AppDelegate.swift */,
 				BFEFF9B021AC7D5C00CDFDC1 /* Assets.xcassets */,
 				BFEFF9B521AC7D5C00CDFDC1 /* Info.plist */,
@@ -83,7 +99,8 @@
 		BFEFF9BD21AC7DDB00CDFDC1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BFEFF9AB21AC7D5600CDFDC1 /* DataViewController.swift */,
+				BF5F84B821B1BC0C0007A935 /* BucketItemCell.swift */,
+				BF5F84BD21B1BDB70007A935 /* DataViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -147,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFEFF9B421AC7D5C00CDFDC1 /* LaunchScreen.storyboard in Resources */,
+				BF5F84C021B1BE370007A935 /* bucket18.csv in Resources */,
 				BFEFF9B121AC7D5C00CDFDC1 /* Assets.xcassets in Resources */,
 				BFEFF9AF21AC7D5600CDFDC1 /* Main.storyboard in Resources */,
 			);
@@ -159,8 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFEFF9AC21AC7D5600CDFDC1 /* DataViewController.swift in Sources */,
+				BF5F84BC21B1BCE70007A935 /* BucketItem.swift in Sources */,
+				BF5F84B921B1BC0C0007A935 /* BucketItemCell.swift in Sources */,
 				BFEFF9AA21AC7D5600CDFDC1 /* AppDelegate.swift in Sources */,
+				BF5F84BE21B1BDB70007A935 /* DataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
