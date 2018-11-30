@@ -55,6 +55,11 @@
                                         <constraint firstItem="0Mf-O6-TZi" firstAttribute="top" secondItem="4u7-QE-mq3" secondAttribute="bottom" constant="-20" id="eHZ-ps-RU4"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="0Mf-O6-TZi" id="DPv-Wd-Zb4"/>
+                                    <outlet property="bucketItemSymbol" destination="Vaw-fg-C6a" id="a29-Wh-iyo"/>
+                                    <outlet property="bucketItemText" destination="4u7-QE-mq3" id="Nrd-8h-SGI"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
