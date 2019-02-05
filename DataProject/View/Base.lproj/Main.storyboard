@@ -25,20 +25,26 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vaw-fg-C6a">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vaw-fg-C6a">
                                             <rect key="frame" x="0.0" y="0.0" width="49" height="51"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="49" id="ja4-T9-eZ8"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Bucket Item Here" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4u7-QE-mq3">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bucket Item Here" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4u7-QE-mq3">
                                             <rect key="frame" x="57" y="0.0" width="181" height="24"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mf-O6-TZi">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mf-O6-TZi">
                                             <rect key="frame" x="304" y="15" width="55" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="55" id="f3r-Q5-K0f"/>
+                                            </constraints>
                                             <attributedString key="attributedText">
                                                 <fragment content="Author">
                                                     <attributes>
@@ -51,8 +57,15 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="4u7-QE-mq3" firstAttribute="leading" secondItem="Vaw-fg-C6a" secondAttribute="trailing" constant="20" id="W1p-6u-NwF"/>
-                                        <constraint firstItem="0Mf-O6-TZi" firstAttribute="top" secondItem="4u7-QE-mq3" secondAttribute="bottom" constant="-20" id="eHZ-ps-RU4"/>
+                                        <constraint firstItem="Vaw-fg-C6a" firstAttribute="top" secondItem="4u7-QE-mq3" secondAttribute="top" id="1aN-ma-Nct"/>
+                                        <constraint firstItem="Vaw-fg-C6a" firstAttribute="leading" secondItem="RXM-ek-73E" secondAttribute="leading" id="BLc-Fc-HPO"/>
+                                        <constraint firstItem="0Mf-O6-TZi" firstAttribute="leading" secondItem="4u7-QE-mq3" secondAttribute="trailing" constant="66" id="BM5-qm-f2f"/>
+                                        <constraint firstItem="Vaw-fg-C6a" firstAttribute="centerY" secondItem="0Mf-O6-TZi" secondAttribute="centerY" id="NsS-o7-NNL"/>
+                                        <constraint firstItem="0Mf-O6-TZi" firstAttribute="trailing" secondItem="RXM-ek-73E" secondAttribute="trailingMargin" id="boj-lF-XEO"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Vaw-fg-C6a" secondAttribute="bottom" constant="-18" id="bow-GA-OMZ"/>
+                                        <constraint firstItem="Vaw-fg-C6a" firstAttribute="top" secondItem="RXM-ek-73E" secondAttribute="top" id="rEF-6t-hxw"/>
+                                        <constraint firstItem="4u7-QE-mq3" firstAttribute="leading" secondItem="Vaw-fg-C6a" secondAttribute="trailing" constant="8" symbolic="YES" id="x1B-JW-qkz"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="0Mf-O6-TZi" secondAttribute="bottom" constant="-3" id="zx7-Gq-1gx"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
